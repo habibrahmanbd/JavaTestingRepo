@@ -1,13 +1,15 @@
 class Puppy {
    int puppyAge;
+   String cellNo;
 
    public Puppy(String name) {
       // This constructor has one parameter, name.
       System.out.println("Name chosen is :" + name );
    }
 
-   public void setAge( int age ) {
+   public void setAge( int age, String cell ) {
       puppyAge = age;
+      cellNo = cell;
    }
 
    public int getAge( ) {
@@ -20,7 +22,7 @@ class Puppy {
       Puppy myPuppy = new Puppy( "tommy" );
 
       /* Call class method to set puppy's age */
-      myPuppy.setAge( 2 );
+      myPuppy.setAge( 2 , "8801739******");
 
       /* Call another class method to get puppy's age */
       myPuppy.getAge( );
