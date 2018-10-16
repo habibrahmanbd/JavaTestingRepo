@@ -14,24 +14,30 @@ class Main {
    }
 
    // for integer
-   public static int minFunction(int n1, int n2) {
+   public static int minFunction(int n1, int n2, int n3) {
       int min;
       if (n1 > n2)
          min = n2;
       else
          min = n1;
 
-      return min; 
+      if(min>n3)
+      	return n3;
+      else
+	return min; 
    }
    
    // for double
-   public static double minFunction(double n1, double n2) {
+   public static double minFunction(double n1, double n2, double n3) {
      double min;
       if (n1 > n2)
          min = n2;
       else
          min = n1;
 
-      return min; 
+      if(min>m3)
+      	return n3;
+      else
+	return min; 
    }
 }
