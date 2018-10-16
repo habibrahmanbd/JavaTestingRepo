@@ -7,7 +7,7 @@ class Puppy {
       System.out.println("Name chosen is :" + name );
    }
 
-   public void setAge( int age, String cell, String Address ) {
+   public void setAge( int age, String cell, String Address, int Nat ) {
       puppyAge = age;
       cellNo = cell;
    }
@@ -22,7 +22,7 @@ class Puppy {
       Puppy myPuppy = new Puppy( "tommy" );
 
       /* Call class method to set puppy's age */
-      myPuppy.setAge( 2 , "8801739******", "CHA - 67, Surjabash, BADDA, Dhaka - 1212, Bangladesh");
+      myPuppy.setAge( 2 , "8801739******", "CHA - 67, Surjabash, BADDA, Dhaka - 1212, Bangladesh", 1);
 
       /* Call another class method to get puppy's age */
       myPuppy.getAge( );
